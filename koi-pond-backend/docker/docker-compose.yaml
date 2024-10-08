@@ -1,4 +1,4 @@
-services:
+ervices:
   koi_pond_app:
     build: .
     ports:
