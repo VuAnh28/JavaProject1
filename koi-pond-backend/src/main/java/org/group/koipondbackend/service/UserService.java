@@ -1,7 +1,7 @@
 package org.group.koipondbackend.service;
 
 import jakarta.annotation.PostConstruct;
-import org.group.koipondbackend.model.User;
+import org.group.koipondbackend.entity.User;
 import org.group.koipondbackend.repository.UserRepository;
 import org.springframework.stereotype.Service;
 

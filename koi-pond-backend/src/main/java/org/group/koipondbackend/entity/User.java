@@ -1,4 +1,4 @@
-package org.group.koipondbackend.model;
+package org.group.koipondbackend.entity;
 
 
 import jakarta.persistence.*;

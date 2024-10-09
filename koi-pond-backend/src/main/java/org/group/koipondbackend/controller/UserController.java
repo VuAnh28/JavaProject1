@@ -1,6 +1,6 @@
 package org.group.koipondbackend.controller;
 
-import org.group.koipondbackend.model.User;
+import org.group.koipondbackend.entity.User;
 import org.group.koipondbackend.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
