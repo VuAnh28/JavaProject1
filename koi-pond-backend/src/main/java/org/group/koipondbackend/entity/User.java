@@ -18,8 +18,14 @@ public abstract class User {
     private Long id;
 
     private String username;
+
+    @Column(name = "full_name")
     private String fullName;
     private String password;
+
+    @Column(unique = true)
     private String email;
+
+    @Column(name = "phone_number")
     private String phoneNumber;
 }
