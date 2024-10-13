@@ -52,7 +52,7 @@ jobs:
 
       - name: Install backend dependencies
         run: |
-          cd backend
+          cd koi-pond-backend
           mvn install -DskipTests
 
       - name: Run backend tests
