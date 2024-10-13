@@ -12,6 +12,7 @@ import org.group.koipondbackend.exception.ResourceNotFoundException;
 
 import lombok.AllArgsConstructor;
 
+@CrossOrigin("*")
 @AllArgsConstructor
 @RestController
 @Controller
