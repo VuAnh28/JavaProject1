@@ -1,33 +1,32 @@
 package org.group.koipondbackend.mapper;
 
-import org.group.koipondbackend.dto.CustomerDTO;
-import org.group.koipondbackend.entity.Customer;
+import org.group.koipondbackend.dto.ManagerDTO;
+import org.group.koipondbackend.entity.Manager;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @Component
-public class CustomerMapper extends BaseMapper<Customer, CustomerDTO> {
+public class ManagerMapper extends BaseMapper<Manager, ManagerDTO>{
 
     @Qualifier("managerMapper")
     @Autowired
     private GenericMapper genericMapper;
-
     @Override
-    public CustomerDTO toDto(Customer entity) {
+    public ManagerDTO toDto(Manager entity) {
         if (entity == null) {
             return null;
         }
 
-        return (CustomerDTO) genericMapper.toDto(entity);
+        return (ManagerDTO) genericMapper.toDto(entity);
     }
 
     @Override
-    public Customer toEntity(CustomerDTO dto) {
+    public Manager toEntity(ManagerDTO dto) {
         if (dto == null) {
             return null;
         }
 
-        return (Customer) genericMapper.toEntity(dto);
+        return (Manager) genericMapper.toEntity(dto);
     }
 }
