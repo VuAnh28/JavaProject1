@@ -15,11 +15,10 @@ const Footer: React.FC = () => {
                     </FooterColumn>
 
                     <FooterColumn title="Dịch vụ">
-                        {/*!TODO: Thay thế đường dẫn trang*/}
                         <ul className="space-y-2">
                             <li><a href="#" className="hover:text-blue-400 transition duration-300">Thiết kế hồ cá</a>
                             </li>
-                            <li><a href="#" className="hover:text-blue-400 transition duration-300">Thi công hồ cá</a>
+                            <li><a href="/construction" className="hover:text-blue-400 transition duration-300">Thi công hồ cá</a>
                             </li>
                             <li><a href="#" className="hover:text-blue-400 transition duration-300">Bảo dưỡng định
                                 kỳ</a></li>
@@ -29,7 +28,6 @@ const Footer: React.FC = () => {
                     </FooterColumn>
 
                     <FooterColumn title="Liên hệ">
-                        {/*!TODO: Thay thế địa chỉ cần thiết*/}
                         <ul className="space-y-2">
                             <li>123 Đường ABC, Quận XYZ</li>
                             <li>Thành phố HCM, Việt Nam</li>
